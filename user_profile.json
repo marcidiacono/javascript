@@ -1,0 +1,25 @@
+{
+    "first_name" : "Bart",
+    "last_name" : "Simpson",
+    "location" : "Springfield",
+    "parents" : [
+        {
+            "first_name" : "Homero",
+            "last_name" : "Simpson"
+        },
+        {
+            "first_name" : "Marge",
+            "last_name" : "Bouvier"
+        }
+    ],
+    "pets" : [
+        {
+            "breed" : "galgo",
+            "name" : "Ayudante de Santa"
+        },
+        {
+            "breed" : "marca gato",
+            "name" : "Bola de Nieve"
+        }
+    ]
+}

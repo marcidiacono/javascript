@@ -1,0 +1,20 @@
+{
+    "bart" : {
+        "username" : "bsimpson",
+        "location" : "Springfield",
+        "online" : true,
+        "followers" : 830
+    },
+    "lisa" : {
+        "username" : "lsimpson",
+        "location" : "Springfield",
+        "online" : false,
+        "followers" : 680
+    },
+    "maggie" : {
+        "username" : "msimpson",
+        "location" : "Springfield",
+        "online" : false,
+        "followers" : 260
+    }
+}
