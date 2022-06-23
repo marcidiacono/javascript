@@ -1,0 +1,51 @@
+Coerción de tipos...
+
+Aprendimos a hacer una conversión explícita de tipos. Esto nos proporciona seguridad. REQUISITO.
+
+Ustedes estudiaron, por su cuenta, estructuras de control. Sería interesante usar las estructuras más adecuadas. REQUISITO.
+
+Repasamos la importancia de una buena documentación. REQUISITO.
+
+Aprendimos sobre eventos... lo mejor era usar un Detector de Eventos. REQUISITO.
+
+{
+    "first_prop" : "Una cadena de texto",
+    "second_prop" : 125.30,
+    "third_prop" : [
+        {
+            "sub_prop_1" : "Descripción - 1",
+            "sub_prop_2" : 200
+        },
+        {
+            "sub_prop_1" : "Descripción - 2",
+            "sub_prop_2" : 100
+        }
+    ],
+    "forth_prop" : true,
+    "fifth_prop" : null
+}
+
+Aprendimos que puedo "parsear" el JSON con el método parse() de JSON.
+
+JSON.parse(json); -> Objeto JS.
+
+Aprendimos a crear un objeto vacío y agregar propiedades a ese objeto por código.
+
+¿Qué quiero?
+
+Quiero una página HTML que me permita "pegar" el JSON de arriba, y un botón "CONVERTIR" -> que llama a una función que recibe el JSON que tengo en la caja de texto (como string) y va a devolver (por consola) un objeto JS. O sea, por consola, luego de presionar el botón CONVERTIR, podré acceder a cada elemento del objeto mediante la notación "." o escribiendo la clave de la propiedad entre [].
+
+La función DEBE HACER LA CONVERSIÓN DE FORMA MANUAL (no puedo usar el método parse, de JSON).
+
+REQUISITO: Usar exactamente el JSON dado.
+
+REQUISITO: El objeto JS se llamará json (const json = {})
+
+REQUISITO: La conversión de {} que sea recursiva (OPCIONAL).
+
+REQUISITO: 2 archivos. 1 HTML y 1 js. 
+
+ESTRUCTURA DEL "PROYECTO":
+
+index.html
+    js/myparse.js
