@@ -1,0 +1,38 @@
+https://jsonplaceholder.typicode.com/users REQUISITO
+
+getUsers(
+    foma1() <- poner nombre descriptivo...
+)
+
+https://jsonplaceholder.typicode.com/users/1/albums REQUISITO
+
+Usando fetch (es REQUISITO)...
+
+Un array de usuarios (usen JSON) REQUISITO...
+
+Usando 3 (al menos 2 REQUISITO) formas de poblar de manera asincrónica una array users.
+
+Tanto getUsers() como getAlbums() deben ser async y usar await en el código.
+
+¿Qué va hacer Marcelo?
+
+El navegador me va a imprimir en la consola:
+
+Puede hacer getUser() llamando a:
+    - forma1
+    - forma2
+    - forma3 (opcional)
+
+Puedo hacer getAlbums(id) llamando a:
+    - forma1
+    - forma2
+    - forma3 (opcional)
+
+Ejemplo: getUser(forma1) -> imprime en consola un array de objetos usaurio (sin el zipcode, sin geo: lat, sin phone) (usar desestructurción, spread, parámestros ...rest).
+
+Ejemplo: getAlbums(1, forma1); -> imprime en consola un array de objetos album.
+
+ch2/
+    index.html
+    js/
+       api.js
